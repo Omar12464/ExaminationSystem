@@ -13,11 +13,13 @@ namespace ExaminationSystem
         public int Mark { get; set; }
         public Answer[] AnswerList { get; set; }
         public Answer CorrectAnswer { get; set; }
-        public Question(string header, string body,int mark)
+        public Question(string header, string body,int mark, Answer[]list,Answer corrrect)
         {
             HeaderOfQuestion = header;
             BodyOfQuestion = body;
             Mark = mark;
+            AnswerList = list;
+            CorrectAnswer = corrrect;
         }
         public override string ToString()
         {
