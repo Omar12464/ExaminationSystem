@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExaminationSystem
 {
-    internal abstract class Question
+     public abstract class Question
     {
         public string HeaderOfQuestion { get; set; }
         public string BodyOfQuestion { get; set; }

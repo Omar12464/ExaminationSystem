@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExaminationSystem
 {
-    internal class Answer
+    public class Answer
     {
         public int AnswerId { get; set; }
         public string AnswerText { get; set; }
