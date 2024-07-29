@@ -12,6 +12,7 @@ namespace ExaminationSystem
         public MCQQuestion(string header, string body, int mark, Answer[] AnswerList, Answer correctanswer) :
         base(header, body, mark, AnswerList, correctanswer)
         {
+              
         }
     }
 }
